@@ -1,0 +1,7 @@
+# Ignore API keys
+*.apikey
+*.key
+
+# Ignore model output
+*.keras
+*.h5

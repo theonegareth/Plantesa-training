@@ -1,15 +1,15 @@
-# Leaf Disease Detection Training
+# Leaf Disease Detection Training (Visual Studio Code)
 
-This repository contains a project for training a model to detect leaf diseases using machine learning and computer vision. The training process is conducted using Jupyter Notebook.
+This repository contains a project for training a model to detect leaf diseases using machine learning and computer vision. The training process is conducted using Visual Studio Code.
 
 ## Features
 - Image preprocessing and augmentation.
 - Model training for disease classification.
-- Jupyter Notebook-based workflow for ease of use.
+- Visual Studio Code-based workflow for flexibility and efficiency.
 
 ## Prerequisites
 - Python 3.x
-- Jupyter Notebook
+- Visual Studio Code
 - Required Python libraries (see `requirements.txt`)
 
 ## Setup Instructions
@@ -24,24 +24,27 @@ This repository contains a project for training a model to detect leaf diseases 
     pip install -r requirements.txt
     ```
 
-3. Launch Jupyter Notebook:
+3. Open the project in Visual Studio Code:
     ```bash
-    jupyter notebook
+    code .
     ```
 
-4. Open the training notebook:
-    Navigate to the `notebooks/` directory and open the training notebook to start the process.
+4. Configure the Python environment:
+    - Ensure the Python extension is installed in Visual Studio Code.
+    - Select the appropriate Python interpreter for the project.
+
+5. Run the training script:
+    - Navigate to the `src/` directory and execute the training script using the integrated terminal.
 
 ## Project Structure
 - `data/`: Contains datasets for training and testing.
 - `models/`: Pre-trained and custom models for disease detection.
-- `notebooks/`: Jupyter Notebooks for training and analysis.
 - `src/`: Source code for preprocessing and training.
 - `README.md`: Project documentation.
 
 ## Usage
 1. Place leaf images in the `data/input` directory.
-2. Open the training notebook and follow the steps to train the model.
+2. Open the training script in Visual Studio Code and follow the steps to train the model.
 3. Save the trained model for future use.
 
 ## Contributing
@@ -52,4 +55,4 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Acknowledgments
 - Open-source libraries and datasets used in this project.
-- The Jupyter Notebook community for their support.
+- The Visual Studio Code community for their support.
