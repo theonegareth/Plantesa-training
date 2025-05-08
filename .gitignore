@@ -2,6 +2,10 @@
 *.apikey
 *.key
 
+# Ignore environment variables
+# .env files are often used to store sensitive information like API keys, database URLs, etc.
+*.env
+
 # Ignore model output
 *.keras
 *.h5
