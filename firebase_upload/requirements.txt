@@ -1,1 +1,5 @@
 pyrebase4
+python-dotenv
+opencv-python
+tensorflow
+
