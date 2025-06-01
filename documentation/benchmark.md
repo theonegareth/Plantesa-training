@@ -20,11 +20,9 @@ This repository contains scripts and results for evaluating the performance of t
 4. **Compare Results**  
     Benchmark the model against baseline or previous versions.
 
-## Example Command
+## Usage
 
-```bash
-python test.py --model-path path/to/model.pth --data-path path/to/test_data
-```
+This notebook verifies the accuracy of the model that has been trained. 
 
 ## Results
 
@@ -43,4 +41,4 @@ python test.py --model-path path/to/model.pth --data-path path/to/test_data
 ## References
 
 - [Model Training Documentation](../README.md)
-- [Dataset Source](link-to-dataset)
+- [Dataset Source](https://www.kaggle.com/models/rishitdagli/plant-disease/tensorFlow2/plant-disease/1)
