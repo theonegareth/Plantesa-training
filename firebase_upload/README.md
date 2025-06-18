@@ -58,4 +58,29 @@ To set up a `.env` file for your Firebase configuration, follow these steps:
     load_dotenv()
     ```
 
-This setup ensures your Firebase credentials remain secure and are not exposed in your codebase.
+
+    ## Firebase Upload Flowchart
+
+    Below is the flowchart illustrating the Firebase upload process:
+
+    ![Firebase Upload Flowchart](assets/upload_firebase_flowchart.png)
+
+    1. **Initialize Firebase**  
+        The application initializes Firebase using the configuration provided in the `.env` file.
+
+    2. **Authenticate User**  
+        The user is authenticated using Firebase Authentication. This step ensures secure access to Firebase services.
+
+    3. **Prepare Data**  
+        The data to be uploaded is prepared and validated to ensure it meets the required format and constraints.
+
+    4. **Upload Data**  
+        The prepared data is uploaded to Firebase's real-time database or cloud storage, depending on the application's requirements.
+
+    5. **Handle Response**  
+        Firebase returns a response indicating the success or failure of the upload operation. The application processes this response accordingly.
+
+    6. **Error Handling**  
+        If an error occurs during any step, it is logged and handled to ensure the application remains functional.
+
+    This flowchart provides a clear overview of the upload process, making it easier to understand and implement Firebase uploads effectively.
